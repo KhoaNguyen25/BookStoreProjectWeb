@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+	css form login
+*/
+body{
+	background-color: #ccc;
+}
+.container{
+	margin: 40px auto;
+    background-color: #ffffff;
+    display: block;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+h1,h2{
+	text-align:center;
+}
+.user_login{
+	text-align:center;
+}
+.user_login input{
+	margin-bottom:20px;
+}
+.email, .password{
+	display: flex;
+    justify-content: center;
+    width:80%;
+}
+#email {
+	margin-left:50px;
+}
+#password{
+	margin-left: 29px;
+}
+.error{
+	color: red;
+	font-style: italic;
+}

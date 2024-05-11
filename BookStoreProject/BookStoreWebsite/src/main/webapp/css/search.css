@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.search {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border: 2px solid #ccc;
+	margin: 20px auto;
+	padding: 10px 0;
+	width: 70%;
+	border-radius: 10px;
+}
+.search--image {
+    margin-left: 21px;
+}
+.search--content {
+    margin-left: 30px;
+    max-width: 650px;
+}
+.search--price {
+    margin: 0 20px 0 10px;
+}
+
+.search--item__image {
+	width: 200px;
+	height: 250px;
+}
+.search--item__price{
+	font-size:40px;	
+}
+.search--item__cart a {
+	padding: 10px 20px;
+	background-color: black;
+	color: #fff;
+	cursor: pointer;
+}
+.search--item__cart a:hover {  
+    background-color: #ccc;
+    color: black;
+}
